@@ -21,7 +21,8 @@
    `..\..\Release\ImageMagick\lib\`<br>
    <img src="./ImageMagickConfiguration2.png"><br>
 7. Open "VisualMagick\VisualDynamicMT.sln"
-8. **Make sure that PDB generation enabled** by openning context menu of any project > Properties > Linker > Debugging. <br>
+8. **Make sure that PDB generation enabled**<br>
+   Open context menu for any project > Properties > Linker > Debugging<br>
    `Generate Debug Info` should be `Generate Debug Information(/DEBUG)`
 9. **Fix code to doesn't prevent external crash handler**
    - ImageMagick\MagickCore\nt-base.c (comment SetUnhandledExceptionFilter)
