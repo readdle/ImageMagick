@@ -37,5 +37,5 @@
      ```
 10. Build release configuration of "VisualMagick\VisualDynamicMT.sln"
 11. Execute GenerateImageMagickIncludeFolder.sh from ImageMagick-Windows repo folder
-12. Remove all exe and related PDB files in "Release\ImageMagick\bin"
+12. Remove all exe and their PDB files in "Release\ImageMagick\bin"
 13. Zip "Release\ImageMagick" folder
